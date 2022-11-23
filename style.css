@@ -12,6 +12,10 @@ img {
   height: auto;
   margin: auto;
 }
+input {
+  display: block;
+  margin: 0 auto;
+}
 .title-container {
   height: 5em;
   display: flex;
@@ -25,14 +29,17 @@ img {
   padding-left: 40px;
 }
 .subtitle {
+  margin-top: 40px;
   text-align: center;
 }
 
 .kit-container {
-  height: 250px;
-  max-height: 250px;
+  height: 260px;
+  max-height: 260px;
+  width: 80%;
+  margin: 0 auto;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
   border: 3px solid black; /* remove - debbug */
   margin-bottom: 30px;
@@ -50,7 +57,8 @@ img {
   word-wrap: break-word;
   width: 150px;
   max-width: 150px;
-  border: solid 1px black;
+  border: solid 1px rgba(0, 0, 0, 0.308);
+  border-radius: 10%;
 }
 .item-description,
 .item-price {
