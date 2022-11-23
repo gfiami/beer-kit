@@ -6,6 +6,12 @@
 body {
   margin: 0;
 }
+img {
+  display: block;
+  width: 96px;
+  height: auto;
+  margin: auto;
+}
 .title-container {
   height: 5em;
   display: flex;
@@ -21,18 +27,32 @@ body {
 .subtitle {
   text-align: center;
 }
+
 .kit-container {
+  height: 250px;
+  max-height: 250px;
   display: flex;
-  border: 1px solid black; /* remove - debbug */
-  justify-content: space-evenly;
-  width: 90%;
-  margin: 0 auto;
-  margin-top: 1%;
-  height: 9em;
+  align-items: flex-start;
+  justify-content: center;
+  border: 3px solid black; /* remove - debbug */
+  margin-bottom: 30px;
 }
 .beer-container,
 .cup-container,
 .opener-container {
   display: flex;
-  border: solid 1px black; /*remove - debbug */
+  gap: 90px;
+}
+
+.beer,
+.cup,
+.opener {
+  word-wrap: break-word;
+  width: 150px;
+  max-width: 150px;
+  border: solid 1px black;
+}
+.item-description,
+.item-price {
+  text-align: center;
 }
