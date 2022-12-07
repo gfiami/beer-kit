@@ -14,9 +14,9 @@
     <div class="subtitle">
       <h2>Select <u>one</u> item from each section to add it to your kit</h2>
     </div>
-    <ie class="kit">
-        <fieldset class="kit-container">
-            <legend><h3>Choose a beer</h3></legend>
+    <div class="kit">
+      <fieldset class="kit-container">
+        <legend><h3>Choose a beer</h3></legend>
         <div class="beer-container">
           <div class="beer">
             <label for="beer1">
@@ -43,49 +43,57 @@
             <input type="radio" name="beer" id="beer3" value="beer3" />
           </div>
         </div>
-        </fieldset>
+      </fieldset>
       <fieldset class="kit-container">
         <legend><h3>Choose a cup</h3></legend>
         <div class="cup-container">
-          <div id="cup1" class="cup">
-            <img src="./images/beer1.png" />
-            <p class="item-description">Item Name Test</p>
-            <p class="item-price">$10.99</p>
+          <div class="cup">
+            <label for="cup1">
+              <img src="./images/beer1.png" />
+              <p class="item-description">Item Name Test</p>
+              <p class="item-price">$10.99</p>
+            </label>
+            <input type="radio" name="cup" id="cup1" value="cup1" />
           </div>
-          <div id="cup2" class="cup">
-            <img src="./images/beer1.png" />
-            <p class="item-description">Item Name Tests</p>
-            <p class="item-price">$10.99</p>
+          <div class="cup">
+            <label for="cup2">
+              <img src="./images/beer1.png" />
+              <p class="item-description">Item Name Tests</p>
+              <p class="item-price">$10.99</p>
+            </label>
+            <input type="radio" name="cup" id="cup2" value="cup2" />
           </div>
-          <div id="cup3" class="cup">
-            <img src="./images/beer1.png" />
-            <p class="item-description">Item Name Test</p>
-            <p class="item-price">$10.99</p>
+          <div class="cup">
+            <label for="cup3">
+              <img src="./images/beer1.png" />
+              <p class="item-description">Item Name Test</p>
+              <p class="item-price">$10.99</p>
+            </label>
+            <input type="radio" name="cup" id="cup3" value="cup3" />
           </div>
         </div>
       </fieldset>
       <fieldset class="kit-container">
         <legend><h3>Choose an opener</h3></legend>
         <div class="opener-container">
-          <div id="open1" class="opener">
+          <div class="opener">
             <img src="./images/beer1.png" />
             <p class="item-description">Item Name Test</p>
             <p class="item-price">$10.99</p>
           </div>
-          <div id="open2" class="opener">
+          <div lass="opener">
             <img src="./images/beer1.png" />
             <p class="item-description">Item Name Test</p>
             <p class="item-price">$10.99</p>
           </div>
-          <div id="open3" class="opener">
+          <div lass="opener">
             <img src="./images/beer1.png" />
             <p class="item-description">Item Name Test</p>
             <p class="item-price">$10.99</p>
           </div>
         </div>
       </fieldset>
-      <div>      <h3> Future Final Selection</h3>
-      </div>
+      <div><h3>Future Final Selection</h3></div>
     </div>
 
     <script src="./script.js"></script>
