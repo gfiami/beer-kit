@@ -64,3 +64,17 @@ input {
 .item-price {
   text-align: center;
 }
+
+.end-shop h3 {
+  display: inline;
+}
+.end-shop {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.payment {
+  font-size: 20px;
+}
